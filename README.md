@@ -9,8 +9,10 @@ The datasheet of our dataset contains instances (code snippets) with the followi
 - Link – The GitHub link to the code snippet, including the commit and the start and end LOC.
 - Code Smell – code smell for which the code snippet is examined.
 - Project Link – the link to the version of the code repository that was annotated.
-- Individual annotations – the severity score and applicable heuristics determined by each annotator.
+- Individual annotations – the severity score determined by each annotator.
 - Final severity – a single severity score calculated using the algorithm described below.
-- Metrics – a list of metrics for the code snippet, calculated by our platform https://github.com/Clean-CaDET/platform. 
+- Metrics – a list of metrics for the code snippet, calculated by our platform https://github.com/Clean-CaDET/platform.
+
+We create two sheets for each code smell. The first sheet contains the above-listed information, while the second sheet contains the heuristics given by each annotator. The second sheet is presented for completeness, and we believe that researchers will benefit primarily from the first sheet for each smell.
 
 _Note: For now, we only provide a sample of the dataset. We will publish the full dataset upon completing our machine learning experiments._
