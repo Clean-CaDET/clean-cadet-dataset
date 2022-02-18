@@ -1,6 +1,6 @@
 # Clean CaDET dataset
 
-This repository contains the code smell dataset represented in the paper "Towards a systematic approach to manual annotation of code smells," submitted for consideration in _IEEE Transactions on Software Engineering_ journal.
+This repository contains the code smell dataset represented in the paper "Towards a systematic approach to manual annotation of code smells," submitted for consideration in the journal.
 
 We annotated code snippets (methods or classes) for the presence and severity of two code smells: Long Method and God Class. We selected the annotated code snippets randomly from 8 open-source C# projects. A minimum of two annotators independently assigned the code smell severity. In cases of disagreement, the third annotator independently annotated the code snippet. Our dataset contains 3494 annotated instances (with a total of 8202 annotations). 
 
